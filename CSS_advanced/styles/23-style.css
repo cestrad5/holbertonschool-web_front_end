@@ -591,10 +591,12 @@ ul.row {
     color: var(--text-color);
 }
 
+/* Style it so that it renders as a block element */
 .social-link {
     display: block;
 }
 
+/* Fill in the color of the svg children with the text-color variable */
 .social-link>svg {
     fill: var(--text-color);
 }
